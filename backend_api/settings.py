@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'backend_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'topskills03',
+        'NAME': 'topskills3',
         'USER': 'topskills3',
         'PASSWORD': 'ote2020',
         'HOST': 'pgsql03-farm70.uni5.net',

@@ -6,7 +6,7 @@ import datetime
 
 
 def timestamp_now():
-    return str(datetime.datetime.now())[:-7]
+    return datetime.datetime.now()
 
 class Sellers(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4(), editable=False)

@@ -4,6 +4,5 @@ from core.api.serializers import SellersSerializer
 
 
 class SellersViewSet(ModelViewSet):
-    queryset = Sellers.objects.all()
+    queryset = Sellers.objects.all().order_by('created_at')
     serializer_class = SellersSerializer
-    filter_fields = '__all__'
